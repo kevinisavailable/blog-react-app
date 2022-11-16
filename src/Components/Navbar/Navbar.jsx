@@ -1,4 +1,6 @@
 import {FaBloggerB} from 'react-icons/fa'
+import Login from '../Login/Login';
+import Logout from '../Logout/Logout';
 const NavbarComponent = () => {
   return (
     <>
@@ -20,7 +22,8 @@ const NavbarComponent = () => {
         </form>
 
         <div className="text-end">
-          <button type="button" className="btn btn-outline-light me-2">Login</button>
+          <Login />
+          <Logout />
         </div>
       </div>
     </div>
